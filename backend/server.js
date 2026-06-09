@@ -9,7 +9,9 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/weather", weatherRoutes);
-
+app.get("/", (req, res) => {
+  res.send("SkyCast Backend is running 🚀");
+});
 app.listen(process.env.PORT, () => {
     console.log(
         `Server running on port ${process.env.PORT}`
