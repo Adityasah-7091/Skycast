@@ -152,7 +152,7 @@ function App() {
 
         <div className="max-w-5xl mx-auto">
           <h1 className="text-5xl font-bold text-white text-center mb-8">
-            Weather Dashboard
+            Skycast
           </h1>
 
           <SearchBar
