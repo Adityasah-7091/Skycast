@@ -1,16 +1,103 @@
-# React + Vite
+# 🌦️ SkyCast - Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SkyCast is a modern weather application built using the MERN stack ecosystem. It provides real-time weather information, hourly forecasts, 5-day forecasts, geolocation-based weather updates, favorites management, recent search history, and dynamic weather-themed backgrounds.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🔍 Search weather by city name
+* 📍 Current location weather using Geolocation API
+* 🌡️ Real-time weather data
+* ⏰ Hourly weather forecast
+* 📅 5-Day weather forecast
+* ⭐ Save favorite cities
+* 🕒 Recent search history
+* 🌙 Dark mode support
+* 🎨 Dynamic weather-based themes and backgrounds
+* 🔔 Toast notifications
+* 📱 Responsive design for mobile and desktop
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* Vite
+* Tailwind CSS v4
+* Axios
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+
+* Node.js
+* Express.js
+
+### APIs
+
+* WeatherAPI
+
+### Storage
+
+* Local Storage
+
+## 📸 Screenshots
+
+### Home Page
+
+(Add Screenshot Here)
+
+### Weather Dashboard
+
+(Add Screenshot Here)
+
+### Forecast Section
+
+(Add Screenshot Here)
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/skycast.git
+cd skycast
+```
+
+### Backend Setup
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## 🔑 Environment Variables
+
+Create a `.env` file inside the backend directory:
+
+```env
+API_KEY=YOUR_WEATHERAPI_KEY
+```
+
+## 🌐 Live Demo
+
+Add your deployed website link here.
+
+## 📚 What I Learned
+
+* Building full-stack applications with React and Express
+* API integration and data handling
+* Responsive UI design with Tailwind CSS
+* State management in React
+* Local storage management
+* Deployment using Vercel
+
+## 👨‍💻 Author
+
+Aditya Kumar Sah
