@@ -34,30 +34,23 @@ SkyCast is a modern weather application built using the MERN stack ecosystem. It
 
 * WeatherAPI
 
-### Storage
-
-* Local Storage
-
 ## 📸 Screenshots
 
 ### Home Page
-
-(Add Screenshot Here)
+![Home Page](screenshots/home-page.png)
 
 ### Weather Dashboard
+![Weather Dashboard](screenshots/weather-dashboard.png)
 
-(Add Screenshot Here)
-
-### Forecast Section
-
-(Add Screenshot Here)
+### Mobile View
+![Mobile View](screenshots/mobile-view.png)
 
 ## ⚙️ Installation
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/skycast.git
+git clone https://github.com/Adityasah-7091/skycast.git
 cd skycast
 ```
 
@@ -87,7 +80,7 @@ API_KEY=YOUR_WEATHERAPI_KEY
 
 ## 🌐 Live Demo
 
-Add your deployed website link here.
+[Live Demo](https://skycast-silk.vercel.app/)
 
 ## 📚 What I Learned
 
